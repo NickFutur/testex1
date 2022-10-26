@@ -1,0 +1,85 @@
+@media only screen and (min-width: 1000px) {
+    .wrap {
+        width: 75%;
+    }
+    .card {
+        flex-direction: row;
+        border-radius: 16px;
+        margin-bottom: 30px;
+        /* max-width: 1200px; */
+    }
+    .card__image {
+        position: relative;
+        border-radius: 16px 16px 0px 0px;
+        height: 47vh;
+        /* max-height: 370px; */
+        max-width: 470px;
+    }
+    .card__img {
+        border-radius: 14px 14px 0px 0px;
+        background: url('../image/AdobeStock_168443825\ 1.svg') center/ cover no-repeat;
+    }
+    .card__status {
+        background-color: #099CE8;
+        font-size: 1.6rem;
+        color: #fff;
+        width: 154px;
+        height: 42px;
+    }
+    .card__status1 {
+        background-color: #FFD83B;
+        font-size: 1.6rem;
+        color: #323232;
+        width: 129px;
+        height: 43px;
+        z-index: 100;
+        top: 17%;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .card__all-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card__coast {
+        margin: 26px 19px 19px 19px;
+        justify-content: flex-start;
+    }
+    .card__clock-text {
+        font-size: 1.2rem;
+        line-height: 20px;
+        left: 20px;
+    }
+    .card__label {
+        font-weight: 400;
+        font-size: 2.6rem;
+        line-height: 34px;
+        color: #000;
+        margin-bottom: 11px;
+    }
+    .card__list-item {
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 20px;
+        color: #343434;
+        margin-bottom: 11px;
+        position: relative;
+    }
+    .card__price-coast {
+        font-size: 3.6rem;
+        margin-bottom: 5px;
+    }
+    .card__price-desc {
+        font-size: 1.4rem;
+    }
+    .card__more {
+        font-size: 1.8rem;
+        color: #292929;
+        width: 187px;
+        height: 52px;
+        background-color: #FFD83C;
+        border-radius: 23px;
+        border: none;
+        margin-left: 20px;
+    }
+}
